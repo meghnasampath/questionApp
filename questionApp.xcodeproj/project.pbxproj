@@ -11,9 +11,9 @@
 		BDD311092C57D3480011362D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD311082C57D3480011362D /* ContentView.swift */; };
 		BDD3110B2C57D34C0011362D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD3110A2C57D34C0011362D /* Assets.xcassets */; };
 		BDD3110E2C57D34C0011362D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD3110D2C57D34C0011362D /* Preview Assets.xcassets */; };
-		BDD311152C57D6650011362D /* questionTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD311142C57D6650011362D /* questionTwo.swift */; };
-		BDD311172C57D76B0011362D /* questionThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD311162C57D76B0011362D /* questionThree.swift */; };
-		BDD311192C57D8440011362D /* finalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD311182C57D8440011362D /* finalPage.swift */; };
+		BDD311152C57D6650011362D /* questionOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD311142C57D6650011362D /* questionOne.swift */; };
+		BDD311172C57D76B0011362D /* questionTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD311162C57D76B0011362D /* questionTwo.swift */; };
+		BDD311192C57D8440011362D /* questionThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD311182C57D8440011362D /* questionThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +22,9 @@
 		BDD311082C57D3480011362D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDD3110A2C57D34C0011362D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD3110D2C57D34C0011362D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BDD311142C57D6650011362D /* questionTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionTwo.swift; sourceTree = "<group>"; };
-		BDD311162C57D76B0011362D /* questionThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionThree.swift; sourceTree = "<group>"; };
-		BDD311182C57D8440011362D /* finalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalPage.swift; sourceTree = "<group>"; };
+		BDD311142C57D6650011362D /* questionOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionOne.swift; sourceTree = "<group>"; };
+		BDD311162C57D76B0011362D /* questionTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionTwo.swift; sourceTree = "<group>"; };
+		BDD311182C57D8440011362D /* questionThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +59,9 @@
 			children = (
 				BDD311062C57D3480011362D /* questionAppApp.swift */,
 				BDD311082C57D3480011362D /* ContentView.swift */,
-				BDD311142C57D6650011362D /* questionTwo.swift */,
-				BDD311162C57D76B0011362D /* questionThree.swift */,
-				BDD311182C57D8440011362D /* finalPage.swift */,
+				BDD311142C57D6650011362D /* questionOne.swift */,
+				BDD311162C57D76B0011362D /* questionTwo.swift */,
+				BDD311182C57D8440011362D /* questionThree.swift */,
 				BDD3110A2C57D34C0011362D /* Assets.xcassets */,
 				BDD3110C2C57D34C0011362D /* Preview Content */,
 			);
@@ -148,9 +148,9 @@
 			files = (
 				BDD311092C57D3480011362D /* ContentView.swift in Sources */,
 				BDD311072C57D3480011362D /* questionAppApp.swift in Sources */,
-				BDD311172C57D76B0011362D /* questionThree.swift in Sources */,
-				BDD311152C57D6650011362D /* questionTwo.swift in Sources */,
-				BDD311192C57D8440011362D /* finalPage.swift in Sources */,
+				BDD311172C57D76B0011362D /* questionTwo.swift in Sources */,
+				BDD311152C57D6650011362D /* questionOne.swift in Sources */,
+				BDD311192C57D8440011362D /* questionThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

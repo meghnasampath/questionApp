@@ -4,59 +4,48 @@
 //
 //  Created by Scholar on 7/29/24.
 //
-
 import SwiftUI
-
 struct ContentView: View {
-    
     @State private var response = ""
     
     var body: some View {
-        
         NavigationStack {
-            VStack {
-                Text("What is the most common street name in the United States?")
-                    .multilineTextAlignment(.center)
+            ZStack {
+                Color("backgroundColor")
+                    .ignoresSafeArea()
                 
-                Button("Main Street") {
-                    response = "Yes, you're correct! ✅ "
-                }
-                
-                Button("Lincoln Street") {
-                    response = "Sorry :(, not quite 🙅‍♀️"
+                VStack {
+                    Text(" 🌎 Random 'Geography' Quiz! 🌎")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .frame(maxWidth: 900, maxHeight: 200, alignment: .center)
+                   
+                    .padding()
+                    .background{
+                     Image("earthPic").resizable()
                     }
-                
-                .padding()
-                .fontWeight(.bold)
-                .frame(width: 270)
-                .background()
-                .foregroundColor(.red)
-                .cornerRadius(5.0)
-                .background(Rectangle()
-                .cornerRadius(15)
-                .foregroundColor(.blue))
-               
-                
-                Button("Washington Street") {
-                    response = "Sorry :(, not quite 🙅‍♀️"
+                    .cornerRadius(15.0)
+                        
+                    .frame(maxWidth: .infinity, maxHeight: 250, alignment: .topLeading)
+              
+                        NavigationLink(destination: questionOne()){
+                            Text("START ➡️")
+                        }
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .foregroundColor(.blue)
+                        .padding()
+                        .background(.white)
+                        .cornerRadius(15.0)
+                    }
+                    .padding()
                 }
-          
-                Text(response)
-                
-                NavigationLink(destination: questionTwo()) {
-                    Text("Next Question ➡️")
-                }
-                
-                .padding()
-    
-    
-                
             }
-            
         }
     }
-}
-
 #Preview {
     ContentView()
 }
+
