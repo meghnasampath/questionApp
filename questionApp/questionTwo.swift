@@ -1,5 +1,5 @@
 //
-//  questionTwo.swift
+//  questionThree.swift
 //  questionApp
 //
 //  Created by Scholar on 7/29/24.
@@ -7,45 +7,47 @@
 
 import SwiftUI
 
-struct questionTwo: View {
+struct questionThree: View {
+    @State private var response = ""
+    
+    var body: some View {
         
-        @State private var response = ""
-        
-        var body: some View {
-            
-            NavigationStack {
-                VStack {
-                    Text("Which country makes up half the Western Coastline of South America?")
-                        .multilineTextAlignment(.center)
-                    
-                    Button("Argentina") {
-                        response = "Sorry :(, not quite 🙅‍♀️"
-                    }
-                    
-                    Button("Brazil") {
-                        response = "Sorry :(, not quite 🙅‍♀️"
-                        
-                    }
-                    
-                    Button("Chile") {
-                        response = "Yes, you're correct! ✅ "
-                    }
-              
-                    Text(response)
-                    
-                    NavigationLink(destination: questionThree()) {
-                        Text("Next Question ➡️")
-                    }
+        NavigationStack {
+            VStack {
+                Text("What is the only country with a non-rectangular flag?")
+                    .multilineTextAlignment(.center)
+                
+                Button("Bhutan") {
+                    response = "Sorry :(, not quite 🙅‍♀️"
+                }
+                
+                Button("Nepal") {
+                    response = "Yes, you're correct! ✅ "
                     
                 }
                 
+                Button("Norway") {
+                    response = "Sorry :(, not quite 🙅‍♀️"
+                }
+          
+                Text(response)
+                
+                NavigationLink(destination: 
+                    finalPage()) {
+                    Text("Final Page :) ➡️")
+                }
+                
             }
+            
         }
     }
-        
-        
+}
+    
+    
+
+           
     
 
 #Preview {
-    questionTwo()
+    questionThree()
 }
